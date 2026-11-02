@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+ <title>HABO MUNCHIES | Affordable Kota, Burgers & Chips</title>
+
+<meta name="description"
+content="Welcome to HABO MUNCHIES. Enjoy delicious and affordable South African kota, cheese burgers and crispy chips.">
+
+<meta name="keywords"
+content="HABO MUNCHIES, kota, sphatlo, cheese burger, chips, affordable food">
+
+<meta name="author" content="HABO MUNCHIES">
+
+<meta name="robots" content="index, follow"> 
+
+
+<meta property="og:title"
+content="HABO MUNCHIES">
+
+<meta property="og:description"
+content="Fresh, tasty and affordable meals.">
+
+<meta property="og:type"
+content="website">
+
+<meta property="og:image"
+content="images/hero-food.jpg">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <nav>
+
+            <h1>
+                HABO MUNCHIES
+            </h1>
+
+
+            <ul>
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="menu.html">
+                        Menu
+                    </a>
+                </li>
+
+                <li>
+                    <a href="about.html">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contact.html">
+                        Contact
+                    </a>
+                </li>
+
+                <li>
+                    <a href="cart.html">
+                        Cart
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h2>
+                Welcome to HABO MUNCHIES
+            </h2>
+
+            <p>
+                Fresh, tasty and affordable sphatlos
+                made for our local community.
+            </p>
+
+            <a
+                href="menu.html"
+                class="btn">
+
+                View Our Menu
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+<section class="faq-section">
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+
+        <button class="faq-question">
+            What food do you sell?
+        </button>
+
+        <div class="faq-answer">
+            <p>
+                We sell cheese burgers, kota specials
+                and large chips.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="faq-item">
+
+        <button class="faq-question">
+            How much does a meal cost?
+        </button>
+
+        <div class="faq-answer">
+            <p>
+                Cheese Burger: R55,
+                Kota Special: R45,
+                Large Chips: R30.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="faq-item">
+
+        <button class="faq-question">
+            Where can I view the menu?
+        </button>
+
+        <div class="faq-answer">
+            <p>
+                Visit our menu page to view
+                our available meals.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="dynamic-menu">
+
+    <h2>Explore Our Meals</h2>
+
+    <input
+        type="text"
+        id="menuSearch"
+        placeholder="Search for a meal..."
+    >
+
+    <div id="menuItems"></div>
+
+    <p id="noResults" style="display: none;">
+        No meals found. Try another search.
+    </p>
+
+</section>
+
+<section class="contact-section">
+
+    <h2>Contact HABO MUNCHIES</h2>
+
+    <p>Have a question? Send us an enquiry.</p>
+
+    <form id="contactForm">
+
+        <div class="form-group">
+            <label for="customerName">Full Name</label>
+            <input
+                type="text"
+                id="customerName"
+                placeholder="Enter your full name"
+                required
+            >
+        </div>
+
+        <div class="form-group">
+            <label for="customerEmail">Email Address</label>
+            <input
+                type="email"
+                id="customerEmail"
+                placeholder="Enter your email"
+                required
+            >
+        </div>
+
+        <div class="form-group">
+            <label for="customerPhone">Phone Number</label>
+            <input
+                type="tel"
+                id="customerPhone"
+                placeholder="Enter your phone number"
+                required
+            >
+        </div>
+
+        <div class="form-group">
+            <label for="customerMessage">Your Message</label>
+            <textarea
+                id="customerMessage"
+                rows="5"
+                placeholder="Write your enquiry..."
+                required
+            ></textarea>
+        </div>
+
+        <button type="submit" class="btn">
+            Submit Enquiry
+        </button>
+
+        <p id="formFeedback" role="status"></p>
+
+    </form>
+
+</section>
+
+    <main>
+
+        <section>
+
+            <h2>
+                About HABO MUNCHIES
+            </h2>
+
+            <p>
+                HABO MUNCHIES is a small local
+                sphatlo shop that provides
+                delicious and affordable food
+                to customers in the community.
+            </p>
+
+            <br>
+
+            <p>
+                Our goal is to provide quality
+                food, friendly service and an
+                easy ordering experience.
+            </p>
+
+        </section>
+
+        <section>
+
+            <h2>
+                Our Popular Meals
+            </h2>
+
+
+            <div class="product-grid">
+
+                <div class="product-card">
+
+                    <img src="images/cheese-burger.jpg"
+                    alt="Cheese Burger">
+
+                    <h3>
+                        Cheese Burger
+                    </h3>
+
+                    <p>
+                        A delicious cheese burger
+                        prepared fresh for you.
+                    </p>
+
+                    <p class="price">
+                        R55
+                    </p>
+
+                    <a
+                        href="menu.html"
+                        class="btn">
+                        Order Now
+                    </a>
+                </div>
+
+                <div class="product-card">
+
+    <img src="images/kota-special.jpg"
+         alt="Kota Special">
+
+    <h3>
+        Kota Special
+    </h3>
+
+    <p>
+        A tasty South African
+        kota packed with flavour.
+    </p>
+
+    <p class="price">
+        R45
+    </p>
+
+    <a href="menu.html" class="btn">
+        Order Now
+    </a>
+
+</div>
+<div class="product-card">
+
+    <img src="images/large-chips.jpg"
+         alt="Large Chips">
+
+    <h3>
+        Large Chips
+    </h3>
+
+    <p>
+        Crispy and delicious
+        chips served fresh.
+    </p>
+
+    <p class="price">
+        R30
+    </p>
+
+    <a href="menu.html" class="btn">
+        Order Now
+    </a>
+
+</div>
